@@ -13,24 +13,21 @@ body{background-color: black;
         align-items: center;}
     
     
-    li{
-        display: inline-block;
-        margin: 20px;
-    }
+    li{ display: inline-block;
+        margin: 20px;}
     
     
     .submit1{color: violet;}
 
 
 
-    .submit1 {
+    #btn-enviar{
         font-size:15px;
         font-family:Arial;
         width:140px;
         height:50px;
         border-width:1px;
         color:#fff;
-        border-color:rgba(189, 16, 224, 1);
         font-weight:bold;
         border-top-left-radius:28px;
         border-top-right-radius:28px;
@@ -38,23 +35,47 @@ body{background-color: black;
         border-bottom-right-radius:28px;
         text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
         background:rgba(189, 16, 224, 1);
-        cursor: pointer;
-      }
+        cursor: pointer;}
       
-      .buttonClass:hover {
-        background: rgba(189, 16, 224, 1)
-      }
+        #btn-enviar:hover{color: pink; background-color: rebeccapurple}
+        
     
-      .email{width: 250px; font-size: 15px; font-family: Arial, Helvetica, sans-serif; height: 25px;
-        color:         black;
-         border-top-left-radius: 10px; border-top-right-radius: 10px;
-         border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
-      }
+      input{
+        width: 300px; font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 25px;
+        color: black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 15px;
+        margin-top: 20px}
 
 
-      .text{width: 250px; font-size: 15px; font-family: Arial, Helvetica, sans-serif; height: 25px;
-        color:         black;
-         border-top-left-radius: 10px; border-top-right-radius: 10px;
-         border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;
+      
 
-      }
+
+      a{color:white; cursor: pointer; }
+
+
+    a:hover{color: rgb(158, 160, 20)}
+
+
+   img{
+       width: 500px; }
+
+   main{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       margin-top: 50px;  }
+
+   form{
+       display: flex;
+       flex-direction: column;
+       width: 60%; }
+
+    
+        
+    
